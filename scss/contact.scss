@@ -72,3 +72,30 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .contact {
+    margin: 0 auto;
+    width: 93%;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact {
+    .map-holder {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 525px) {
+  .contact {
+    .map-holder {
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
