@@ -804,7 +804,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 60px;
 }
 .specials .specials-holder .specials-pic {
-  width: 35%;
+  width: 23%;
   height: 100%;
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -812,7 +812,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: cover;
 }
 .specials .specials-holder .specials-text {
-  width: 65%;
+  width: 75%;
 }
 .specials .specials-holder .specials-text .text-wrapper {
   display: flex;
@@ -863,15 +863,19 @@ h1, h2, h3, h4, h5, h6, p {
     width: 93%;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 625px) {
+  .specials .specials-holder .specials-pic {
+    width: 50%;
+  }
   .specials .specials-holder .specials-text .text-wrapper .offer-header {
-    font-size: 25px;
+    font-size: 24.5px;
   }
   .specials .specials-holder .specials-text .text-wrapper span {
     font-size: 15px;
   }
   .specials .specials-holder .specials-text p {
-    font-size: 14px;
+    font-size: 13px;
+    margin-bottom: 50px;
   }
 }
 .blog {
