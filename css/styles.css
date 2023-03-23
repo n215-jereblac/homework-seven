@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, p {
   max-width: 980px;
   height: 90px;
   margin: 0 auto;
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid #fff;
   display: flex;
   align-items: center;
   font-family: "Gill Sans";
@@ -72,10 +72,10 @@ h1, h2, h3, h4, h5, h6, p {
 .nav-holder nav .link-holder .links a {
   padding-right: 21.5px;
   padding-left: 21.5px;
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   font-size: 15px;
-  border-right: 1px solid #79ADDC;
+  border-right: 1px solid #79addc;
 }
 .nav-holder nav .link-holder .links a:last-child {
   border-right: none;
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .home .hero .callout-holder .callout {
   margin: 0 auto;
-  color: #FFF;
+  color: #fff;
 }
 .home .hero .callout-holder .callout h1 {
   font-family: "Proxima Nova Condensed";
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 40px;
   width: 121px;
   display: block;
-  background-color: #79ADDC;
+  background-color: #79addc;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
 .home .home-page .tours-home .tour-card .tour-text {
-  color: #FFF;
+  color: #fff;
   font-family: "Proxima Nova Condensed";
   margin-top: 50px;
 }
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto;
   height: 40px;
   width: 133px;
-  background-color: #79ADDC;
+  background-color: #79addc;
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6, p {
 .home .home-page .tours-home .tour-card .tours-button a {
   font-family: "Gill Sans";
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
 }
 .home .home-page .form-wrap {
   margin: 50px auto 0 auto;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 18px;
 }
 .home .home-page .form-wrap .form input {
-  border: solid #79ADDC 2px;
+  border: solid #79addc 2px;
   height: 58px;
   padding: 5px;
   margin-bottom: 20px;
@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 58px;
   width: 11%;
   padding: 15px;
-  border: solid #79ADDC 2px;
+  border: solid #79addc 2px;
   font-family: "Gill Sans Light";
   font-size: 18px;
 }
@@ -303,13 +303,13 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 20px;
   font-family: "Gill Sans Light";
   font-size: 18px;
-  border: solid #79ADDC 2px;
+  border: solid #79addc 2px;
   margin-bottom: 35px;
 }
 .home .home-page .form-wrap .form .submit {
-  color: #FFF;
+  color: #fff;
   width: 100%;
-  background-color: #79ADDC;
+  background-color: #79addc;
   font-size: 15px;
   font-family: "Gill Sans";
   border-radius: 30px;
@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 20px;
 }
 .about .client-holder .client-text .client-name {
-  color: #79ADDC;
+  color: #79addc;
   margin-top: 70px;
   text-align: end;
   font-size: 20px;
@@ -495,7 +495,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: cover;
 }
 .tours .tours-hero p {
-  color: #FFF;
+  color: #fff;
   font-size: 60px;
   font-family: "Proxima Nova Condensed";
   letter-spacing: 5px;
@@ -518,7 +518,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 55px;
 }
 .tours .tours-wrapper .tour-card .tour-text {
-  color: #FFF;
+  color: #fff;
   font-family: "Proxima Nova Condensed";
   margin-top: 50px;
 }
@@ -538,7 +538,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto;
   height: 40px;
   width: 133px;
-  background-color: #79ADDC;
+  background-color: #79addc;
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -547,7 +547,7 @@ h1, h2, h3, h4, h5, h6, p {
 .tours .tours-wrapper .tour-card .tours-button a {
   font-family: "Gill Sans";
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
 }
 
 .tours-head {
@@ -601,7 +601,7 @@ h1, h2, h3, h4, h5, h6, p {
 .packages .package-hero {
   width: 100%;
   height: 413px;
-  color: #FFF;
+  color: #fff;
   font-family: "Proxima Nova Condensed";
   background-repeat: no-repeat;
   background-position: center;
@@ -661,8 +661,8 @@ h1, h2, h3, h4, h5, h6, p {
 .packages .button .book {
   margin: 0 auto;
   padding: 10px 33px;
-  background-color: #79ADDC;
-  color: #FFF;
+  background-color: #79addc;
+  color: #fff;
   font-family: "Gill Sans";
   font-size: 15px;
   border-radius: 20px;
@@ -785,7 +785,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .specials {
   width: 980px;
-  min-height: 200px;
+  min-height: 950px;
   margin: 0 auto;
   padding-top: 150px;
 }
@@ -796,6 +796,65 @@ h1, h2, h3, h4, h5, h6, p {
   width: 225px;
   letter-spacing: 3px;
   margin-bottom: 35px;
+}
+.specials .specials-holder {
+  height: 287px;
+  width: 60%;
+  display: flex;
+  margin-bottom: 60px;
+}
+.specials .specials-holder .specials-pic {
+  width: 35%;
+  height: 100%;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.specials .specials-holder .specials-text {
+  width: 55%;
+}
+.specials .specials-holder .specials-text .text-wrapper {
+  display: flex;
+}
+.specials .specials-holder .specials-text .text-wrapper .offer-header {
+  font-size: 30px;
+  font-family: "Proxima Nova Condensed";
+  border-bottom: 2px solid #000;
+  letter-spacing: 3px;
+}
+.specials .specials-holder .specials-text .text-wrapper span {
+  font-size: 20px;
+  font-family: "Proxima Nova Condensed";
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #ff7d38;
+}
+.specials .specials-holder .specials-text p {
+  font-family: "Gill Sans Light";
+  font-size: 16px;
+  margin-top: 22px;
+}
+.specials .specials-holder .specials-text .specials-button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Gill Sans";
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.special1 {
+  background-image: url(../images/special-offer-01.jpg);
+}
+
+.special2 {
+  background-image: url(../images/special-offer-02.jpg);
 }
 
 .blog {
@@ -824,8 +883,8 @@ h1, h2, h3, h4, h5, h6, p {
   margin-right: 20px;
 }
 .blog .post .left .date-box {
-  background-color: #79ADDC;
-  color: #FFF;
+  background-color: #79addc;
+  color: #fff;
   text-align: center;
   padding-top: 5px;
   height: 60px;
@@ -852,7 +911,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 15px;
 }
 .blog .post .right .p-blue {
-  color: #79ADDC;
+  color: #79addc;
   font-size: 13px;
 }
 
@@ -923,13 +982,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .contact .contact-holder .form-holder .contact-submit {
   margin-top: 20px;
-  background-color: #79ADDC;
+  background-color: #79addc;
   height: 60px;
   width: 167px;
   padding-top: 20px;
   padding-left: 27px;
   cursor: pointer;
-  color: #FFF;
+  color: #fff;
 }
 
 @media (max-width: 1024px) {
@@ -949,10 +1008,10 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 footer {
-  background-color: #79ADDC;
+  background-color: #79addc;
   font-family: "Gill Sans";
   width: 100%;
-  color: #FFF;
+  color: #fff;
   height: 100px;
   display: flex;
   align-items: center;
@@ -978,7 +1037,7 @@ footer .footer .socials {
 }
 footer .footer .socials a {
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
 }
 
 @media (max-width: 1200px) {
