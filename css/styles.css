@@ -352,6 +352,9 @@ h1, h2, h3, h4, h5, h6, p {
   .home .tours-home .tour-card {
     margin-bottom: 20px;
   }
+  .home .home-page .form-wrap .form .submit {
+    margin-bottom: 75px;
+  }
 }
 @media (max-width: 620px) {
   .form-wrap .form .family-input select {
@@ -476,7 +479,7 @@ h1, h2, h3, h4, h5, h6, p {
 .tours {
   max-width: 980px;
   margin: 0 auto;
-  min-height: 1610px;
+  min-height: 1550px;
   padding-top: 1px;
 }
 .tours .tours-hero {
@@ -582,6 +585,11 @@ h1, h2, h3, h4, h5, h6, p {
   .tours .tours-hero {
     margin: 0 auto;
     width: 95%;
+  }
+}
+@media (max-width: 750px) {
+  .tours {
+    margin-bottom: 50px;
   }
 }
 .packages {
@@ -793,7 +801,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   min-height: 50px;
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
   font-family: "Gill Sans";
 }
 .blog .post .left {
@@ -858,7 +866,7 @@ h1, h2, h3, h4, h5, h6, p {
   min-height: 650px;
   display: flex;
   font-family: "Gill Sans";
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .contact .contact-holder .map-holder {
   width: 40%;
@@ -959,16 +967,8 @@ footer .footer .socials a {
 }
 
 @media (max-width: 1200px) {
-  footer {
-    margin-top: 53px;
-  }
   footer .footer {
     width: 95%;
-  }
-}
-@media (max-width: 860px) {
-  footer {
-    margin-top: 113px;
   }
 }
 @media (max-width: 500px) {
