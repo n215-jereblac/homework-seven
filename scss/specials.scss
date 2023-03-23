@@ -1,7 +1,7 @@
 .specials {
   width: 980px;
   // background-color: aqua;
-  min-height: 950px;
+  min-height: 960px;
   margin: 0 auto;
   padding-top: 150px;
   .specials-header {
@@ -15,7 +15,7 @@
   .specials-holder {
     // background-color: red;
     height: 287px;
-    width: 60%;
+    width: 100%;
     display: flex;
     margin-bottom: 60px;
     .specials-pic {
@@ -26,7 +26,7 @@
       @include image-format;
     }
     .specials-text {
-      width: 55%;
+      width: 65%;
       //   background-color: orange;
       .text-wrapper {
         display: flex;
@@ -57,7 +57,7 @@
         color: $white;
         font-size: 15px;
         font-family: $GS;
-        margin-top: 50px;
+        margin-top: 30px;
         padding-top: 10px;
         padding-left: 20px;
         cursor: pointer;
@@ -72,4 +72,31 @@
 
 .special2 {
   background-image: url(../images/special-offer-02.jpg);
+}
+
+@media (max-width: 1024px) {
+  .specials {
+    margin: 0 auto;
+    width: 93%;
+  }
+}
+
+@media (max-width: 550px) {
+  .specials {
+    .specials-holder {
+      .specials-text {
+        .text-wrapper {
+          .offer-header {
+            font-size: 25px;
+          }
+          span {
+            font-size: 15px;
+          }
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
 }

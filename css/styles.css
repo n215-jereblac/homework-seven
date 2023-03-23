@@ -785,7 +785,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .specials {
   width: 980px;
-  min-height: 950px;
+  min-height: 960px;
   margin: 0 auto;
   padding-top: 150px;
 }
@@ -799,7 +799,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .specials .specials-holder {
   height: 287px;
-  width: 60%;
+  width: 100%;
   display: flex;
   margin-bottom: 60px;
 }
@@ -812,7 +812,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: cover;
 }
 .specials .specials-holder .specials-text {
-  width: 55%;
+  width: 65%;
 }
 .specials .specials-holder .specials-text .text-wrapper {
   display: flex;
@@ -843,7 +843,7 @@ h1, h2, h3, h4, h5, h6, p {
   color: #fff;
   font-size: 15px;
   font-family: "Gill Sans";
-  margin-top: 50px;
+  margin-top: 30px;
   padding-top: 10px;
   padding-left: 20px;
   cursor: pointer;
@@ -857,6 +857,23 @@ h1, h2, h3, h4, h5, h6, p {
   background-image: url(../images/special-offer-02.jpg);
 }
 
+@media (max-width: 1024px) {
+  .specials {
+    margin: 0 auto;
+    width: 93%;
+  }
+}
+@media (max-width: 550px) {
+  .specials .specials-holder .specials-text .text-wrapper .offer-header {
+    font-size: 25px;
+  }
+  .specials .specials-holder .specials-text .text-wrapper span {
+    font-size: 15px;
+  }
+  .specials .specials-holder .specials-text p {
+    font-size: 14px;
+  }
+}
 .blog {
   padding-top: 150px;
   max-width: 980px;
