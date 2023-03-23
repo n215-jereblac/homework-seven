@@ -783,6 +783,21 @@ h1, h2, h3, h4, h5, h6, p {
     width: 93%;
   }
 }
+.specials {
+  width: 980px;
+  min-height: 200px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.specials .specials-header {
+  font-size: 30px;
+  font-family: "Proxima Nova Condensed";
+  border-bottom: 2px solid #000;
+  width: 225px;
+  letter-spacing: 3px;
+  margin-bottom: 35px;
+}
+
 .blog {
   padding-top: 150px;
   max-width: 980px;

@@ -1,0 +1,15 @@
+.specials {
+  width: 980px;
+  // background-color: aqua;
+  min-height: 200px;
+  margin: 0 auto;
+  padding-top: 150px;
+  .specials-header {
+    font-size: 30px;
+    font-family: $NovaC;
+    border-bottom: 2px solid $black;
+    width: 225px;
+    letter-spacing: 3px;
+    margin-bottom: 35px;
+  }
+}
